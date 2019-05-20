@@ -61,7 +61,7 @@ for line in sys.stdin:
 
 For sanity check, do:
 
-    $ bzcat bible.en.txt.bz2 | python process.py | wc
+    $ bzcat bible.en.txt.bz2 | python preprocess.py | wc
     
 And see that it works fine.
 
